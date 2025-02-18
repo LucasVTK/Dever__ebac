@@ -1,0 +1,23 @@
+.barra-info{
+    padding: 20px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px 40px;
+
+
+    &__infos{
+        display: flex;
+        gap: 40px;
+        
+    }
+
+    &__item{
+        text-align: center;
+    }
+
+
+}
+

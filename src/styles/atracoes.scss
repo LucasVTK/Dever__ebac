@@ -1,0 +1,50 @@
+@use 'variaveis';
+.atracoes {
+    padding: 80px 0;
+    
+    &--artista{
+        background-image: linear-gradient( variaveis.$blue4, variaveis.$blue3);
+    }
+
+    &--comidas{
+        background-image: linear-gradient( variaveis.$blue3, variaveis.$blue2);
+    }
+
+    &--local{
+        background-image: linear-gradient( variaveis.$blue2, variaveis.$blue1);
+    }
+
+    &--agradecimento{
+        background-image: linear-gradient( variaveis.$blue1, variaveis.$blue1);
+    }
+
+    &--image-left .container {
+        flex-direction: row-reverse;
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__detalhes {
+        &__title {
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        &__descricao{
+            color: #fff;
+
+            &__final{
+                width: 400px;
+                align-items: center;
+                color: #fff;
+            }
+        }
+    }
+
+    &__image {
+        width: 360px;
+    }
+}
