@@ -81,10 +81,12 @@
         }
 
         &__image {
+            
             width: 100%;
             max-width: 300px;
             margin: 0 auto;
             display: block;
+            padding-top: 20px;
         }
     }
 }
